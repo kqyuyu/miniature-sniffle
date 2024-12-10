@@ -1,1 +1,16 @@
+.grid-container-menu {
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	width: 500px;
+	position: sticky;
+	top: 0;
+}
 
+.grid-item {
+	text-align: center;
+	padding: 20px;
+	margin: 0px 10px;
+	background-image: url('hleb.jpg');
+	background-size:100% 100%;
+}
